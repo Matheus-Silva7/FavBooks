@@ -98,6 +98,19 @@ td {
 }
 
 @media screen and (max-width: 640px) {
+
+  
+  .ContentText {
+    width: 90%;
+  }
+  .ContentText h2{
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .ContentText h3{
+    font-size: 2.2rem;
+  }
+
   .containerDetails{
     width: 100%;
     flex-direction: column;

@@ -114,7 +114,7 @@
 
 @media screen and (max-width:640px) {
     .card-book {
-        width: 12rem;
+        width: 45%;
     }
 
     .btnStyle{
@@ -127,11 +127,7 @@
         height: 130px;
     }
 
-    .card-book {
-        width: 10rem;
-    }
-
     .btnStyle{
-        margin-left: 8rem;
+        margin-left: 7rem;
     }
 }

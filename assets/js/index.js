@@ -42,6 +42,9 @@ function createCard(item) {
   const cardBook = document.createElement("div");
   cardBook.classList.add("card-book");
 
+/*   const maxLength = 4;
+  const title = item.volumeInfo.title.length > maxLength ? item.volumeInfo.title.substring(0, maxLength) + '...' : item.volumeInfo.title; */
+
   const thumbnailUrl = item.volumeInfo.imageLinks
     ? item.volumeInfo.imageLinks.thumbnail
     : "assets/img/bookNotFound.jpg";
