@@ -107,6 +107,9 @@
 }
 
 @media screen and (max-width: 800px) {
+    .card-book .img-book {
+        width: auto;
+    }
     .card-book {
         width: 14rem;
     }

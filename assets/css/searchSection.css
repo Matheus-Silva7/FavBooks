@@ -84,9 +84,9 @@
 
 @media screen and (max-width:380px) {
 
-
+     
   .textSearch h2 {
-    font-size: 1.4rem;
+    font-size: auto;
   }
   .textSearch form input {
     width:15rem;
