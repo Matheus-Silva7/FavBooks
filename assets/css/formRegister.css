@@ -1,0 +1,101 @@
+#main-register {
+  background-image: url(../img/background-register.png);
+  height: 100%;
+  padding: 3.5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-register .form-register {
+  display: flex;
+  flex-direction: column;
+  background-color: #464646;
+  padding: 3rem;
+  gap: 15px;
+  border-radius: 10px;
+}
+
+.form-register h2 {
+  color: #ffffff;
+  font-size: 4rem;
+  text-align: center;
+
+  font-weight: bold;
+}
+
+.form-register label {
+  color: #ffffff;
+  font-size: 1.6rem;
+  font-weight: 100;
+}
+
+/* Estilo padrão para o input */
+.form-register input {
+  width: 40rem;
+  height: 3rem;
+  padding: 0 1rem;
+  border-radius: 10px;
+  border: solid 2px #827F7F;
+  background-color: transparent;
+  outline: 0;
+}
+
+/* Mudando a cor do placeholder do input e do input type date */
+.form-register input::placeholder,
+.form-register input[type="date"]:placeholder-shown {
+  color: #808080; 
+  font-size: 1.1rem;
+}
+
+/* Mudando a cor do texto quando o usuário começa a digitar */
+.form-register input:not(:placeholder-shown),
+.form-register input[type="email"]:not(:placeholder-shown),
+.form-register input[type="date"]:not(:placeholder-shown) {
+  color: white;
+  font-size: 1.2rem;
+}
+
+/* Mudando a cor da borda do input ao selecionar */
+.form-register input:focus {
+  border: 2px solid #F2D422;
+}
+
+/* Estilizando o calendário, invertendo a cor */
+.form-register input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1); 
+}
+
+.form-register  p{
+  font-size: 1.4rem;
+  color: #c7c7c7;
+  font-weight: 500;
+}
+
+.form-register  p a{
+  color: #ffffff;
+}
+
+.form-register  p a:hover{
+  color: #F2D422;
+  transition: 0.5s;
+}
+
+.form-register .register {
+  font-size: 1.7rem;
+  width: 8rem;
+  padding: 5px 0;
+  margin: 10px auto;
+  text-align: center;
+  background-color: #252526;
+  color: white;
+  border-radius: 10px;
+}
+
+.form-register .register:hover{
+  background-color: #333333;
+  color: #ebebeb;
+  transition: 0.5s;
+}

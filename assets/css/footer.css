@@ -1,0 +1,22 @@
+#footer {
+  height: auto;
+  bottom: 0;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  background-color: #252526;
+}
+
+#footer .content-text p {
+  color: #A6A6A6;
+  font-size: 20px;
+}
+
+#footer .content-text a {
+  color: #ffffff;
+}
+
+#footer .content-text a:hover {
+  color: #F2D422;
+  transition: 0.5s;
+}

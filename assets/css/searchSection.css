@@ -1,0 +1,100 @@
+.search-section {
+  background-image: url(../img/bannerSearch.png);
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textSearch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 4rem;
+}
+
+.textSearch h2 {
+  width: auto;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 4.1rem;
+}
+
+.textSearch form input {
+  width: 55rem;
+  height: 3.5rem;
+  font-size: 1.4rem;
+}
+
+.textSearch form input:not(:placeholder-shown){
+  color: #252526;
+  font-weight: 500;
+}
+
+.textSearch form .btn {
+  width: 3.5rem;
+  font-size: 1.2rem;
+  background-color: #dabe22;
+}
+.textSearch form .btn:hover{
+  background-color: #F2D422;
+  transition: 0.5s;
+}
+
+@media screen and (max-width:800px){
+  .search-section {
+    height: 50vh;
+  }
+
+  .textSearch h2 {
+    font-size: 3rem;
+  }
+  .textSearch form input {
+    width: 38rem;
+  }
+}
+
+@media screen and (max-width:640px){
+
+  .search-section {
+    height:40vh;
+  }
+
+  .textSearch {
+    gap: 1rem;
+  }
+
+  .textSearch h2 {
+    font-size: 1.6rem;
+  }
+  .textSearch form input {
+    width:18rem;
+    height: 2.5rem;
+  }
+
+  .textSearch form .btn {
+    width: 2.7rem;
+    padding: 3px;
+  }
+}
+
+@media screen and (max-width:380px) {
+
+
+  .textSearch h2 {
+    font-size: 1.4rem;
+  }
+  .textSearch form input {
+    width:15rem;
+    height: 2.5rem;
+  }
+
+  .textSearch form .btn {
+    width: 2.7rem;
+    padding: 3px;
+  }
+}

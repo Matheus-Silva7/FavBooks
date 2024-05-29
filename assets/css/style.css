@@ -1,0 +1,30 @@
+@import url(header.css);
+@import url(footer.css);
+@import url(formRegister.css);
+@import url(searchSection.css);
+@import url(booksSection.css);
+@import url(details.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #3E3E40;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+

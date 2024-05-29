@@ -1,0 +1,80 @@
+.navbar,
+.offcanvas-header,
+.offcanvas-body {
+    background-color: #252526 !important;
+}
+
+.navbar {
+    padding: 1rem 0;
+    position: relative;
+}
+
+.logo img {
+width: 9rem;
+}
+
+.list-content {
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+}
+
+.list-content i {
+    color: #F2D422;
+    font-size: 40px;
+}
+
+.btnMyList{
+    background-color: transparent;
+    border: 0;
+}
+
+.content-list {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    align-items: center;
+    color: #F2D422;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.content-list a,
+.btnMyList {
+    color: #D9D9D9;
+}
+
+.content-list a:hover,
+.btnMyList:hover {
+    text-decoration: underline;
+}
+
+.offcanvas-body{
+    padding: 0;
+}
+
+.nav-item{
+    padding-left: 2.5rem;
+}
+
+.offcanvas-title{
+    font-size: 2rem;
+    color: #F2D422;
+    padding-left: 1.5rem;
+}
+
+.nav-item button:hover{
+    font-size: 1.2rem;
+    color: #F2D422;
+    transition: 0.3s;
+}
+
+.offcanvas-backdrop{
+background-color: transparent;
+}
+
+@media screen and (max-width:380px) {
+    .navbar{
+        padding: 0.3rem;
+    }
+}
